@@ -47,7 +47,7 @@
 }
 
 .navbar-home-btn:hover {
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
 
 /* Filter Section */
@@ -58,8 +58,8 @@
 }
 
 .curious-btn {
-  float: right;
   margin: 20px auto;
+  align-items: center;
 }
 
 .filter-checkbox {
@@ -72,16 +72,16 @@
   object-fit: cover;
 }
 
-.title-crop { 
-  overflow: hidden; 
-  white-space: nowrap; 
-  text-overflow: ellipsis; 
+.title-crop {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
-.text-crop { 
-  overflow:hidden; 
-  white-space:normal; 
-  text-overflow:ellipsis; 
+.text-crop {
+  overflow:hidden;
+  white-space:normal;
+  text-overflow:ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -89,9 +89,9 @@
   overflow: hidden;
 }
 
-.cut-text { 
+.cut-text {
   text-overflow: ellipsis;
-  overflow: hidden; 
+  overflow: hidden;
   white-space: normal;
 }
 
@@ -108,7 +108,7 @@
 @media (min-width: 992px) {
   .card-hover:hover {
     outline-width: 5px;
-    transform: scale(1.05); 
+    transform: scale(1.05);
   }
 }
 
